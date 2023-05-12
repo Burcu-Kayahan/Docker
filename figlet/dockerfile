@@ -1,0 +1,5 @@
+FROM ubuntu
+RUN apt-get update
+RUN apt-get install figlet
+ENTRYPOINT figlet Merhaba B107
+# CMD can also be used here
